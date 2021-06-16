@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary-soft:#f3f3f3;
+}
+
+.sidebar{
+
+}
+
+.nav-menu{
+
+}
+
+.nav-menu ul{
+    list-style-type: none;
+}
+
+.menu-title{
+
+}
+
+.menu-item{
+
+}
+
+.menu-item-link{
+
+}
+
+.menu-item-link span{
+    
+}
+
+.menu-item-link i{
+
+}
+
+.menu-space{
+
+}
+
+.content{
+    background-color: var(--primary-soft);
+    overflow: scroll;
+    box-shadow: 0 1rem 3rem rgba($black, .175) inset;
+}
+
+.header{
+    position: sticky;
+    top: 0.25rem;
+    z-index:2000;
+}
+
+.show-sidebar-btn{
+    cursor: pointer;
+}
+
+.userimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card{
+    border: none;
+}
+
+.status-card{
+    transition: 0.3s;
+}
+
+.status-card:hover{
+    transform: translateY(3px);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.status-card:active{
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.ov-img{
+    margin-left: -30px;
+}
+
+.item-carousel{
+    margin-top: -160px;
+}
+.item-card-img{
+    height: 200px;
+    
+}
+
+.carousel-indicators{
+    bottom: -15px;
+}
+
+.sub-list tr{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.sub-list tr:active{   
+    transform: scale(1.02);
+}
+
+.full-screen-card{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 2005;
+    overflow: scroll;
+}
+
+
+
+
+@media (max-width:780px){
+    .sidebar{
+        position: fixed;
+        width: 300px;
+        z-index: 2001;
+        background-color: white;
+        display: block !important;
+        margin-left: -100%;
+    }
+    
+    .carousel-card{
+        margin-top: 90px;
+    }
+    
+}
+
